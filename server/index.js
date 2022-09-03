@@ -17,5 +17,6 @@ app.use(taskRoutes)
 
 app.use(express.static(path.join(__dirname,"../client/dist")))
 
-app.listen(PORT)
-console.log(`Server is listening on port ${PORT}`)
+app.listen(process.env.PORT || 4000)
+
+console.log("Server is listening on port", process.env.PORT || 4000 )
