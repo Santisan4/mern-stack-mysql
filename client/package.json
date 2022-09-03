@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "ng build",
-    "heroku-postbuild": "ng build --prod",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
